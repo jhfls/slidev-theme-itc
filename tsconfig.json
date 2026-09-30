@@ -5,8 +5,7 @@
     "module": "esnext",
     "resolveJsonModule": true,
     "types": [
-      "vite/client",
-      "node"
+      "vite/client"
     ],
     "strict": true,
     "strictNullChecks": true,
@@ -14,8 +13,5 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
-  },
-  "exclude": [
-    "scripts/*"
-  ]
+  }
 }
