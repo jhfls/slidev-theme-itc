@@ -27,7 +27,9 @@
     "slidev": ">=53.0.0"
   },
   "scripts": {
-    "dev": "slidev example.md"
+    "dev": "slidev example.md",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
   },
   "slidev": {
     "colorSchema": "dark",
