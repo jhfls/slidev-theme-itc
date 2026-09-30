@@ -15,7 +15,6 @@ jobs:
           bun-version-file: .tool-versions
 
       - run: bun ci
-      - run: bun run build
       - run: bun run lint --fix
       - run: bun run typecheck
 
