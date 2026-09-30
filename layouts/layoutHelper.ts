@@ -1,5 +1,5 @@
 import type { CSSProperties } from 'vue';
-import bg from './assets/bg.png?url';
+import bg from '../assets/bg.png?url';
 
 /**
  * Resolve urls from frontmatter and append with the base url

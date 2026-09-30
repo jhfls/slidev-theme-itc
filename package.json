@@ -1,7 +1,7 @@
 {
   "name": "@jhfls/slidev-theme-itc",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Slidev theme for JHFLS ITC",
   "author": "JHFLS ITC",
   "license": "MIT",
