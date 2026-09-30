@@ -1,0 +1,55 @@
+{
+  "name": "@jhfls/slidev-theme-itc",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A Slidev theme for JHFLS ITC",
+  "author": "JHFLS ITC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhfls/slidev-theme-itc.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "files": [
+    "assets",
+    "layouts",
+    "styles"
+  ],
+  "engines": {
+    "node": ">=24.0.0",
+    "slidev": ">=53.0.0"
+  },
+  "scripts": {
+    "dev": "slidev example.md"
+  },
+  "slidev": {
+    "colorSchema": "dark",
+    "defaults": {
+      "fonts": {
+        "mono": "Fira Code",
+        "sans": "Avenir Next, Nunito Sans",
+        "local": "Avenir Next"
+      }
+    }
+  },
+  "dependencies": {
+    "@slidev/types": "^53.0.0",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.5",
+    "vue": "^3.5.43"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^9.5.1",
+    "@slidev/cli": "^53.0.0",
+    "@typed-sigterm/eslint-config": "^1.7.1",
+    "eslint": "^10.11.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.1"
+  }
+}
