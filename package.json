@@ -10,7 +10,8 @@
     "url": "https://github.com/jhfls/slidev-theme-itc.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "keywords": [
     "slidev-theme",
